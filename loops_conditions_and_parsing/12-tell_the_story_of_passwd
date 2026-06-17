@@ -1,4 +1,4 @@
-v#!/usr/bin/env bash
+#!/usr/bin/env bash
 # This script displays the content of /etc/passwd as a story
 while IFS=: read -r username password userid groupid info home shell
 do
